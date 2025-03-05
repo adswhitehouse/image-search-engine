@@ -51,3 +51,50 @@ select {
   font-size: inherit;
 }
 /* CSS Reset */
+
+/* Body */
+body {
+  background-color: #392f7f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* H1 */
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 2.5rem;
+}
+
+/* Form */
+form {
+  display: flex;
+  justify-content: center;
+  height: 4rem;
+  margin-top: 5vh;
+}
+
+form input {
+  width: 30rem;
+  border: 0;
+  outline: 0;
+  padding-inline: 1.5rem;
+  background-color: #414c8b;
+  color: #fff;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+form input::placeholder {
+  color: #fff;
+}
+
+form button {
+  width: 6rem;
+  color: #fff;
+  background-color: #ff4a24;
+  border: none;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  cursor: pointer;
+}
